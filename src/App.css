@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+.msgboard {
+  background-color: rgb(161, 245, 245);
+  width: 80vw;
+  height: 80vh;
+  overflow: auto;
+  border-radius: 1%;
+}
+
+.Chatbox {
+  margin: 10px;
+  height: 100px;
+  display: flex;
+  justify-content: left;
+}
+
+textarea {
+  width: 80%;
+}
+
+.username {
+  background-color: beige;
+  width: 30%;
+
+  padding-top: 20px;
+  border-radius: 10%;
+}
+
+.message {
+  background-color: aliceblue;
+  padding-top: 20px;
+  padding-left: 10px;
+  width: 70%;
+  display: flex;
+  justify-content: left;
+  border-radius: 5%;
+}
+
+#sendMsg {
+  width: 80%;
+}
+input {
+  height: 60px;
+  width: 50vw;
+  justify-content: left;
+}
