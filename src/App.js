@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import Socket from "./utils/socket";
-import moment from "moment";
 
 function App() {
   const [text, setText] = useState("");
